@@ -6,11 +6,11 @@ This is a web app to help you work out at home.
 **Project Manager: Miriam Nakiwuge**
 
 
-####Prerequisites
+#### Prerequisites
 Javascript
 
 
-####Installing
+#### Installing
 Make a directory on your computer
 ```
 $ mkdir gym-workout
@@ -27,7 +27,7 @@ $ git clone https://github.com/PrincesaTyne/gym-workout.git
 ```
 
 
-####Features
+#### Features
 Users can do the following:
 
 Sign up
