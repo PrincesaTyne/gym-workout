@@ -7,7 +7,7 @@ This is a web app to help you work out at home.
 
 
 #### Prerequisites
-Javascript
+Javascript, node.js
 
 
 #### Installing
