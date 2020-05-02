@@ -1,0 +1,111 @@
+header a {
+    text-decoration: none ;
+    padding: 10px;
+    color:wheat;
+}
+
+header h1{
+    color:  #208f52;
+    padding-right: 30px;
+}
+
+header .row{
+    display: flex;
+    font-size: 20px;
+    padding: 10px;
+    align-items: center;
+    background-color: #000000c9;
+}
+header .col-sm-6{
+    display: flex;
+    align-items: center;
+}
+
+header .col-sm-2{
+font-size: 17px;
+padding: 20px;
+color: #208f52;
+}
+
+header .col-sm-2 button {
+    background: wheat;
+}
+form{
+    display: flex;
+    padding: 20px;
+}
+
+form .head-search{
+    font-size: 15px;
+    background-color: wheat;
+    border: 1px solid #208f52;
+    border-right: none;
+}
+
+form .search-btn {
+    float: right;
+    background: none;
+    color: #208f52;
+    font-size: 17px;
+    border: 1px solid  #208f52;
+    border-left: none;
+}
+
+.jumbotron .container {
+    display: flex;
+    align-items: center;
+    background-image: url("../images/gym3.jpeg");
+    background-size: cover;
+    color: wheat;
+    height: 300px;
+}
+
+.middle {
+    margin: auto;
+}
+.middle h3{
+    color: black;
+    text-shadow: 0.25px 0.25px 0.25px #208f52;
+}
+
+.middle h4{
+    color: black;
+    text-shadow: 0.25px 0.25px 0.25px #208f52;
+}
+
+form .section-search{
+    font-size: 15px;
+    background-color: wheat;
+    border: 1px solid #208f52;
+    border-right: none;
+    align-items: center;
+}
+
+form .section-btn {
+    float: right;
+    background-color: #000000c9;
+    color: #208f52;
+    font-size: 17px;
+    border: 1px solid  #208f52;
+    border-left: none;
+}
+
+section .row{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    background-color: #000000c9;
+}
+
+section h4, p {
+    color: wheat;
+}
+
+footer {
+    background-color: #000000c9;
+}
+
+footer p {
+    color: wheat;
+    padding-top: 50px;
+}
