@@ -1,0 +1,223 @@
+body {
+    margin: 0px;
+}
+
+header {
+    font-size: 20px;
+    padding: 10px;
+    background-color: #000000c9;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.nav-btn {
+    margin-left: auto;
+    padding: 0px;
+}
+
+.nav-btn button {
+    color: #000000c9;
+}
+
+header a {
+    text-decoration: none ;
+    padding:0px 15px;
+    color:white;
+}
+
+header h1{
+    color:  #208f52;
+}
+
+.search-form{
+    display: flex;
+    padding: 10px;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/gym3.jpeg");
+    background-size: cover;
+    height: 300px;
+    padding-top: 20px;
+}
+.middle h2, h4{
+    color: black;
+    text-shadow: 0.25px 0.25px #208f52;
+    margin: 0px;
+}
+
+.middle h2{
+    margin-top: 70px;
+}
+
+.section-search{
+    display: flex;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid #208f52;
+    border-right: none;
+    align-items: center;
+}
+
+.section-btn {
+    display: flex;
+    float: right;
+    background-color: #000000c9;
+    color: #208f52;
+    font-size: 17px;
+    border: 1px solid  #208f52;
+    border-left: none;
+}
+
+.workout-cards{
+    background:rgba(216, 216, 196, 0.993);
+    color: black;
+    display: flex;
+    align-items: center;
+    
+}
+
+.cards {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
+.cardwrapper {
+    background-color: white;
+    height: 270px;
+    width: 270px;
+    margin: 30px 5px;
+    float: left;
+}
+
+.cardwrapper img {
+    padding: 5px;
+    height: 190px;
+    width: 260px;
+}
+
+.cardwrapper .card-text {
+    text-align: center;
+    padding-top: 0px;
+}
+
+.cardwrapper .card-text h4{
+    color: #208f52;
+    margin: 0px;
+}
+
+.cardwrapper .card-text p {
+    color: #000000c9;
+    margin: 0px;
+}
+
+footer {
+    background-color: #000000c9;
+}
+
+footer p {
+    color: white;
+    padding: 20px;
+    margin: 0px;
+}
+
+.login {
+    background:rgba(216, 216, 196, 0.993);
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    padding: 40px;
+}
+
+.login form{
+    padding: 20px;
+    width: 40%;
+    height: 80%;
+    border: 2px solid rgba(216, 216, 196, 0.993);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login h2, a{
+    color: #208f52;
+}
+
+.login input{
+    padding: 5px;
+    font-size: 15px;
+    width: 60%;
+}
+
+.login #login {
+    color: white;
+    background-color: #208f52;
+    width: 60%;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+}
+
+.signup {
+    background:rgba(216, 216, 196, 0.993);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.signup form{
+    padding: 20px;
+    width: 45%;
+    height: 90%;
+    border: 2px solid rgba(216, 216, 196, 0.993);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup h2 {
+    color: #208f52;
+}
+
+.outter-box {
+    display: flex;
+    width: 70%;
+}
+
+.label {
+    width: 30%;
+}
+
+.input-box{
+    padding: 5px;
+    font-size: 15px;
+    width: 70%;
+    margin: 10px;
+}
+
+.signup .checkbox {
+    margin: 10px;
+}
+
+.signup #signup {
+    color: white;
+    background-color: #208f52;
+    width: 60%;
+    font-size: 18px;
+    padding: 5px;
+    border: none;
+    margin: 10px;
+}
+
+.signup i {
+    font-size: 5px;
+    color: red;
+}
