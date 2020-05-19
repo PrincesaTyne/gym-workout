@@ -5,7 +5,7 @@ body {
 header {
     font-size: 20px;
     padding: 10px;
-    background-color: #000000c9;
+    background-color: #208f52;
 }
 
 .navbar{
@@ -29,7 +29,8 @@ header a {
 }
 
 header h1{
-    color:  #208f52;
+    color: white;
+    margin: 5px;
 }
 
 .search-form{
@@ -75,18 +76,12 @@ header h1{
     border-left: none;
 }
 
-.workout-cards{
-    background:rgba(216, 216, 196, 0.993);
-    color: black;
-    display: flex;
-    align-items: center;
-    
-}
-
 .cards {
+    background:rgba(216, 216, 196, 0.993);
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
+    color: black;
     
 }
 .cardwrapper {
@@ -119,7 +114,7 @@ header h1{
 }
 
 footer {
-    background-color: #000000c9;
+    background-color: #208f52;
 }
 
 footer p {
@@ -201,6 +196,9 @@ footer p {
     font-size: 15px;
     width: 70%;
     margin: 10px;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 4px;
 }
 
 .signup .checkbox {
@@ -220,4 +218,166 @@ footer p {
 .signup i {
     font-size: 5px;
     color: red;
+}
+
+.edit-profile {
+    background: rgba(216, 216, 196, 0.993);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.edit-profile-form {
+    padding: 30px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+.edit-profile .edit-profile-img {
+    display: flex;
+    width: 80%
+}
+
+.edit-profile img {
+    height: 70%;
+    width: 75%;
+    border-radius: 100%;
+    padding: 0px;
+}
+
+.edit-profile .img {
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+#camera {
+    color: #208f52;
+    padding: 0px;
+}
+
+.edit-profile .label{
+    padding: 10px;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.edit-profile i {
+    font-size: 25px;
+    padding: 5px 10px;
+}
+
+#twitter {
+    color: steelblue;
+}
+
+#facebook {
+    color: darkblue;
+}
+
+#instagram {
+    color: #405DE6;
+}
+
+#whatsapp {
+    color: green;
+}
+
+.edit-profile .edit-profile-btn {
+    display: flex;
+    align-items: center;
+}
+
+.edit-profile button {
+    margin: 20px 5px 5px;
+    font-size: 15px;
+    background-color: #208f52;
+    color: white;
+    border: 2px solid #208f52;
+}
+
+.edit-profile button i {
+    font-size: 15px;
+}
+
+.edit-profile textarea {
+    width: 70%;
+    height: 100px;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: none;
+}
+
+.edit-profile .input-box-img{
+    width: 65%;
+}
+
+.edit-profile .input-box-img .label {
+    width: 40%;
+    padding-left: 20px;
+}
+
+.edit-profile .input-box-img .input-box {
+    width: 60%;
+}
+
+.edit-profile .input-box-img .outter-box {
+    width: 90%;
+}
+
+.profile {
+    width: 100%;
+    
+    background: rgba(216, 216, 196, 0.993);
+    display: flex;
+}
+
+.firstbox {
+    background-color: white;
+    padding: 15px;
+    width: 35%;
+    margin: 30px 0px 30px 60px;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+
+.secondbox {
+    background-color: white;
+    margin: 10px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin: 30px 60px 30px 20px;
+}
+
+.secondbox i {
+    padding-left: 25px;
+    font-size: 25px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding:20px 0px ;
+}
+
+.secondbox h4 {
+    width: 90%;
+    margin: 0px;
+}
+
+#edit {
+    color: #208f52;
+    width: 10%;
+    padding: 5px;
+    font-size: 20px;
 }

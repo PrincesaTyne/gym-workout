@@ -21,13 +21,16 @@
         </nav>
     </header>
     <section>
-        <div class="profile">
-            <form class="profile-form">
+        <div class="edit-profile">
+            <form class="edit-profile-form">
                 <div class="outter-box">
                     <h2 style="color: #208f52">My profile</h2>
                 </div>
-                <div class="profile-img">
-                    <img src="./images/profile9.png" />
+                <div class="edit-profile-img">
+                    <div class="img">
+                        <img src="./images/profile7.jpeg" alt="Profile picture" />
+                        <!--<i id="camera" class="fa fa-camera"></i>-->
+                    </div>
                     <div class="input-box-img">
                         <div class="outter-box">
                             <label class="label"for="username">Username</label>
@@ -48,8 +51,15 @@
                     <input class="input-box" type="email" id="email" name="email" placeholder="Email">
                 </div>
                 <div class="outter-box">
-                    <label class="label" for="age">Age</label>
-                    <input class="input-box" type="number" id="age" name="age" placeholder="18" max="100" min="18" step="1">
+                    <label class="label" for="dob">Date of Birth</label>
+                    <input class="input-box" type="date" id="dob" name="dob">
+                </div>
+                <div class="outter-box">
+                    <label class="label" for="gender">Gender</label>
+                    <select class="input-box" id="gender" name="gender">
+                        <option value="female">Female</option>
+                        <option value="male">Male</option>
+                    </select>
                 </div>
                 <div class="outter-box">
                     <label class="label" for="telephone">Telephone</label>
@@ -68,7 +78,7 @@
                         <i id="whatsapp" class="fa fa-whatsapp"></i>
                     </div>
                 </div>
-                <div class="profile-btn">
+                <div class="edit-profile-btn">
                         <button id="save" type="submit"><i class="fa fa-check-circle"></i>SAVE</button>
                         <button id="reset" type="reset"><i class="fa fa-times-circle"></i>RESET</button>
                 </div>
