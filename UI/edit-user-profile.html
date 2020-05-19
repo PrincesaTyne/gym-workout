@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Edit profile|Urban gym</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="./home.html"><h1>Urban GYM</h1></a>
+            <a href="./workouts.html">Workouts</a>
+            <a href="./instructors.html">Instructors</a>
+            <div class="nav-btn">
+                <button type="submit">Sign out</button>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="profile">
+            <form class="profile-form">
+                <div class="outter-box">
+                    <h2 style="color: #208f52">My profile</h2>
+                </div>
+                <div class="profile-img">
+                    <img src="./images/profile9.png" />
+                    <div class="input-box-img">
+                        <div class="outter-box">
+                            <label class="label"for="username">Username</label>
+                            <input class="input-box" type="text" id="username" name="username" placeholder="Username">
+                        </div>
+                        <div class="outter-box">
+                            <label class="label" for="fname">First Name</label>
+                            <input class="input-box" type="text" id="fname" name="fname" placeholder="First Name">
+                        </div>
+                        <div class="outter-box">
+                            <label class="label" for="lname">Last Name</label>
+                            <input class="input-box" type="text" id="lname" name="lname" placeholder="Last Name">
+                        </div>
+                    </div>
+                </div>
+                <div class="outter-box">
+                    <label class="label" for="email">Email</label>
+                    <input class="input-box" type="email" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="outter-box">
+                    <label class="label" for="age">Age</label>
+                    <input class="input-box" type="number" id="age" name="age" placeholder="18" max="100" min="18" step="1">
+                </div>
+                <div class="outter-box">
+                    <label class="label" for="telephone">Telephone</label>
+                    <input class="input-box" type="tel" id="telephone" name="telephone" placeholder="9876543210">
+                </div>
+                <div class="outter-box">
+                    <label class="label" for="about-me">A little about yourself</label>
+                    <textarea class="input-box" placeholder="Write something about yourself here"></textarea>
+                </div>
+                <div class="outter-box">
+                    <p class="label">Add social media handles</p>
+                    <div style="width: 70%; padding-top: 20px;">
+                        <i id="twitter" class="fa fa-twitter"></i>
+                        <i id="facebook" class="fa fa-facebook"></i>
+                        <i id="instagram" class="fa fa-instagram"></i>
+                        <i id="whatsapp" class="fa fa-whatsapp"></i>
+                    </div>
+                </div>
+                <div class="profile-btn">
+                        <button id="save" type="submit"><i class="fa fa-check-circle"></i>SAVE</button>
+                        <button id="reset" type="reset"><i class="fa fa-times-circle"></i>RESET</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2020 Urbangym</p>
+    </footer>
+</body>
+</html>
