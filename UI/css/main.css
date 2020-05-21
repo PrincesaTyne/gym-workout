@@ -58,22 +58,21 @@ header h1{
 }
 
 .section-search{
-    display: flex;
     font-size: 15px;
     background-color: white;
     border: 1px solid #208f52;
     border-right: none;
+    border-radius: 4px 0px 4px 4px;
     align-items: center;
 }
 
 .section-btn {
-    display: flex;
-    float: right;
     background-color: #000000c9;
     color: #208f52;
     font-size: 17px;
     border: 1px solid  #208f52;
     border-left: none;
+    border-radius: 4px 4px 4px 0px;
 }
 
 .cards {
@@ -332,7 +331,6 @@ footer p {
 
 .profile {
     width: 100%;
-    
     background: rgba(216, 216, 196, 0.993);
     display: flex;
 }
@@ -380,4 +378,16 @@ footer p {
     width: 10%;
     padding: 5px;
     font-size: 20px;
+}
+
+.instructorheading {
+    background: rgba(216, 216, 196, 0.993);
+    margin: 0px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header #instructor-search {
+    margin-left: 40px;
 }
